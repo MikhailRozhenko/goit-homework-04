@@ -315,6 +315,8 @@ font-w .title-section-portfolio {
   flex-basis: calc((100% - 48px) / 3);
 }
 
+/* footer */
+
 .ul-portfol .footer-page {
   background-color: #2e2f42;
   padding-top: 100px;
