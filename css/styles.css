@@ -134,18 +134,9 @@ img {
   background: #fff;
 }
 
-.gheader-adres {
-  font-style: normal;
-}
-
 /* section button */
 .section-button {
   background-color: #2e2f42;
-  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office\ 1.jpg);
-
-  background-position: center;
-  background-repeat: no-repeat;
   text-align: center;
   font-family: 'Roboto', sans-serif;
 
@@ -184,6 +175,7 @@ img {
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
 .button-title:hover,
 .button-title:focus {
   background-color: #404bbf;
@@ -192,8 +184,14 @@ img {
 .button-text:hover {
   color: #fff;
 }
-font-weight: 700;
-l .ul-advantages .title-advantages {
+
+.gheader-adres {
+  font-style: normal;
+}
+
+/* section advantages*/
+
+.ul-advantages .title-advantages {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -213,23 +211,29 @@ l .ul-advantages .title-advantages {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .ul-advantages .text-advantages {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .ul-advantages {
   display: flex;
   gap: 24px;
 }
+
 .item-advantages {
   width: calc((100% - 72px) / 4);
 }
 
-.ul-advantages .title-adv .section-dream-team {
+/* section dream team   */
+
+.section-dream-team {
   text-align: center;
   background-color: #f4f4fd;
 }
+
 .title-section {
   color: #2e2f42;
   text-align: center;
@@ -240,6 +244,7 @@ l .ul-advantages .title-advantages {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
 .ul-dream-team .title-dream-team {
   color: #2e2f42;
   text-align: center;
@@ -248,12 +253,14 @@ l .ul-advantages .title-advantages {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
 .ul-dream-team .text-dream-team {
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .ul-dream-team .list-item-dream-team {
   background-color: #fff;
 }
@@ -261,21 +268,26 @@ l .ul-advantages .title-advantages {
 .title-dream-team {
   margin-bottom: 8px;
 }
+
 .ul-dream-team {
   display: flex;
   gap: 24px;
 }
+
 .container-dreamteam,
 .container-portfolio {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 .list-item-dream-team {
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
 }
-font-size: 20px;
-font-w .title-section-portfolio {
+
+/* section Our Portfolio */
+
+.title-section-portfolio {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -283,12 +295,14 @@ font-w .title-section-portfolio {
   color: #2e2f42;
   margin-bottom: 72px;
 }
+
 .ul-portfolio .title-portfolio {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
   margin-bottom: 8px;
 }
 
@@ -297,12 +311,14 @@ font-w .title-section-portfolio {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .ul-portfolio {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
+
 .container-portfolio {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -311,17 +327,18 @@ font-w .title-section-portfolio {
   padding-left: 16px;
   padding: 32px 16px;
 }
+
 .container-portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
 }
 
 /* footer */
-
-.ul-portfol .footer-page {
+.footer-page {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .footer-span {
   color: #f4f4fd;
   font-family: Raleway;
@@ -332,6 +349,7 @@ font-w .title-section-portfolio {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .text-footer {
   color: #f4f4fd;
   font-size: 16px;
@@ -339,6 +357,7 @@ font-w .title-section-portfolio {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+
 .footer-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -347,6 +366,7 @@ font-w .title-section-portfolio {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+
   margin-bottom: 16px;
   display: inline-block;
 }
