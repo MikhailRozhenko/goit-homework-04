@@ -142,6 +142,7 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office\ 1.jpg);
+  background-size: 1440px;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
@@ -290,6 +291,9 @@ img {
 .list-item-dream-team {
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 /* section Our Portfolio */
