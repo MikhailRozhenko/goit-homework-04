@@ -315,10 +315,10 @@ img {
   gap: 24px;
 }
 
-.container-dreamteam,
-.container-portfolio {
+.container-dreamteam {
   padding-top: 32px;
   padding-bottom: 32px;
+  height: 175px;
 }
 
 .list-item-dream-team {
@@ -332,6 +332,11 @@ img {
 .dreamteam-list-svg {
   display: flex;
   justify-content: center;
+  gap: 24px;
+}
+
+.content-main-dreamteam {
+  margin-bottom: 12px;
 }
 
 /* section Our Portfolio */
