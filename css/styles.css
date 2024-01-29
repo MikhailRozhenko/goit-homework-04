@@ -507,12 +507,6 @@ img {
   justify-content: center;
 }
 
-.rog {
-  display: flex;
-  gap: 120px;
-  justify-content: center;
-}
-
 .icon-foot {
   fill: #4d5ae5;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -520,4 +514,14 @@ img {
 
 .icon-foot:hover {
   fill: #31d0aa;
+}
+
+.main-content-footer {
+  display: flex;
+  gap: 270px;
+}
+
+.no-main-content-footer {
+  display: flex;
+  gap: 120px;
 }
