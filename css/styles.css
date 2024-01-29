@@ -70,7 +70,7 @@ img {
   text-transform: uppercase;
 }
 
-.ul-header .ul-header-link {
+.ul-header-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -83,7 +83,6 @@ img {
 
 .ul-header {
   display: flex;
-  position: relative;
 }
 
 .ul-header .item:not(:last-child),
@@ -141,18 +140,25 @@ img {
 .bord-hed {
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
+
+.current-page {
+  position: relative;
+  color: #404bbf;
 }
 
 .current-page::after {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
-  transform: translateY(24px);
   content: '';
   width: 48px;
   height: 4px;
   border-radius: 2px;
-  background: var(--OCEAN, #404bbf);
+  background: #404bbf;
   display: inline-block;
 }
 
@@ -165,7 +171,9 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office\ 1.jpg);
-  background-size: 1440px;
+  max-width: 1440px;
+  background-size: cover;
+
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
@@ -266,6 +274,10 @@ img {
   background: #f4f4fd;
   padding: 24px 100px;
   margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
 }
 
 /* section dream team   */
