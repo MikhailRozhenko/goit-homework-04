@@ -533,6 +533,8 @@ img {
 
 .foot-container {
   display: flex;
+  align-items: baseline;
+  flex-direction: column;
 }
 
 .foot-icon-content {
